@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MainPage
+public class MainPage extends JFrame
 {
     private JPanel MainPanel;
     private JButton SavedReceipts;
@@ -16,12 +16,39 @@ public class MainPage
         setContentPane(MainPanel);
         setTitle("Receipt Saver");
         setDefaultCloseOperation( EXIT_ON_CLOSE );
-        setSize(400, 400);
+        setSize(500,600);
         setLocationRelativeTo( null );
-        setVisible ( true );
+        setVisible( true );
+
+
+        SavedReceipts.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                new SavedReceipts();
+            }
+        });
+
+        SavedReports.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                new SavedReports();
+            }
+        });
+        AddReceipt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                new AddReceipt();
+
+            }
+        });
     }
 
-    public static void main (String[] args )
+    public static void main(String [] args)
     {
         new MainPage();
 
