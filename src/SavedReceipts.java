@@ -22,8 +22,8 @@ public class SavedReceipts extends JFrame
             @Override
             public void actionPerformed(ActionEvent e)
             {
-                JFrame SavedReceipts = (JFrame) SwingUtilities.getWindowAncestor(Back);
-                SavedReceipts.dispose();
+                new MainPage();
+                dispose();
             }
         });
     }

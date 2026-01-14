@@ -17,5 +17,83 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/groovy-cli-commons-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-typecheckers-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-xml-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-toml-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-testng-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-test-junit5-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-templates-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-test-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-swing-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-sql-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-servlet-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-nio-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-macro-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-macro-library-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-jsr223-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-json-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-jmx-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-groovysh-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-ginq-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-groovydoc-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-ant-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-console-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-contracts-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-datetime-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-docgenerator-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-astbuilder-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-cli-picocli-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-dateutil-5.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/groovy-xml-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-test-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-toml-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-templates-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-test-junit5-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-testng-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-sql-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-swing-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-servlet-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-nio-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-macro-library-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-macro-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-jsr223-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-json-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-groovysh-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-jmx-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-groovydoc-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-ginq-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-dateutil-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-contracts-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-datetime-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-console-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-astbuilder-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-ant-5.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/groovy-5.0.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/tess4j-5.17.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="jna-5.18.1" level="project" />
+    <orderEntry type="library" name="jna-platform-jpms" level="project" />
+    <orderEntry type="library" name="lept4j-1.23.0" level="project" />
+    <orderEntry type="library" name="slf4j-api-2.0.99" level="project" />
+    <orderEntry type="library" name="slf4j-simple-1.6.99" level="project" />
+    <orderEntry type="library" name="jai-imageio-core-1.4.0" level="project" />
   </component>
 </module>
